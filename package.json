@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "build": "node esbuild.cjs",
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0",
+    "semantic-release": "semantic-release --branches main"
   },
   "repository": {
     "type": "git",
