@@ -1,6 +1,5 @@
 {
-  "name": "@stiakooo/andromeda",
-  "private": true,
+  "name": "andromeda",
   "version": "1.0.1",
   "description": "This is a test application",
   "main": "src/index.js",
@@ -12,6 +11,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/stiakooo/andromeda.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "author": "Stoyan Yankov",
   "license": "ISC",
