@@ -2,4 +2,4 @@ const core = require('@actions/core');
 
 const person = core.getInput('person');
 
-console.log(`Hello World!!!! ${person}!`);
+console.log(`My name is !!!! ${person}!`);
