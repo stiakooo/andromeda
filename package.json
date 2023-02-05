@@ -1,5 +1,6 @@
 {
   "name": "@stiakooo/andromeda",
+  "private": true,
   "version": "1.0.1",
   "description": "This is a test application",
   "main": "src/index.js",
