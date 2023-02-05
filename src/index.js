@@ -2,4 +2,4 @@ const core = require('@actions/core');
 
 const person = core.getInput('person');
 
-console.log(`Hello again !!!! ${person}!`);
+console.log(`Hi !!!! ${person}!`);
