@@ -17,6 +17,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
+          registry-url: https://npm.pkg.github.com/
+          scope: "@stiakooo"
       - run: npm ci
       - run: npm test
 
@@ -32,6 +34,7 @@ jobs:
         with:
           node-version: 18
           registry-url: https://npm.pkg.github.com/
+          scope: "@stiakooo"
       - run: npm ci
       - run: npm run semantic-release
         env:

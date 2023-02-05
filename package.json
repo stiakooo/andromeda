@@ -1,5 +1,5 @@
 {
-  "name": "andromeda",
+  "name": "@stiakooo/andromeda",
   "version": "1.0.1",
   "description": "This is a test application",
   "main": "src/index.js",
@@ -14,6 +14,11 @@
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
+  },
+  "release": {
+    "branches": [
+      { "name": "main" }
+    ]
   },
   "author": "Stoyan Yankov",
   "license": "ISC",
