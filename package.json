@@ -1,6 +1,6 @@
 {
   "name": "@stiakooo/andromeda",
-  "version": "1.0.1",
+  "version": "1.0.1-mesage-bug-fix.0",
   "description": "This is a test application",
   "main": "src/index.js",
   "scripts": {
@@ -17,7 +17,9 @@
   },
   "release": {
     "branches": [
-      { "name": "main" }
+      {
+        "name": "main"
+      }
     ]
   },
   "author": "Stoyan Yankov",
